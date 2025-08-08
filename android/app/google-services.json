@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "87844356700",
+    "project_id": "tixnow-e2c33",
+    "storage_bucket": "tixnow-e2c33.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:87844356700:android:fa92666659161ad8651c99",
+        "android_client_info": {
+          "package_name": "com.example.tix_now"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBLcl-dvCcynwfuKzmgO5nQxRD6zXQu6g4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
