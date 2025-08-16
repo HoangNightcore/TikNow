@@ -145,6 +145,7 @@ pubspec.lock (khi team dùng nhiều OS)
 
 ## 📁 Cấu trúc project Flutter (gợi ý với BLoC + module phim)
 
+**Clean architecture**
 ```bash
 lib/
 ├── main.dart
@@ -165,6 +166,29 @@ lib/
 │   ├── screens/
 │   └── widgets/
 └── services/            # Firebase, TMDB API, payment mock
+```
+
+**Feature-first**
+```bash
+lib/
+├─ core/                        # Hằng số, theme, utils, widgets chung
+│   ├── constants/              # Màu, font, padding, api key...
+│   ├── theme/                  # Dark/Light theme
+│   ├── utils/                  # Helpers, formatters, validators
+│   ├── widgets/                # Common widgets (button, input, loader, error, empty)
+├─ features/                    # Chia theo feature
+│   ├─ auth/                    # Đăng nhập, đăng ký
+│   │   ├─ bloc/                # Quản lý state, sự kiện, logic UI
+│   │   ├─ data/                # Model, datasource (api/firestore), repository implementation.
+│   │   ├─ domain/              # Entity, repository abstract, usecase
+│   │   └─ presentation/        # UI widgets, pages, screen
+│   ├─ booking/                 # Booking (chọn rạp, suất chiếu, ghế, thanh toán)
+│   ├─ movie/                   # Movie list, movie details, search, trailer
+│   ├─ payment/
+│   ├─ profile/                 # Hồ sơ người dùng
+│   └─ tickets/                 # Vé của tôi
+├─ app.dart
+└─ main.dart
 ```
 
 ---

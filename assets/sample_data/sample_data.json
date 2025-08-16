@@ -1,0 +1,752 @@
+{
+    "cinemas": [
+        {
+            "id": "cinema_001",
+            "name": "CGV Vincom Dong Khoi",
+            "address": "72 Le Thanh Ton, Ben Nghe, District 1, Ho Chi Minh City",
+            "city": "Ho Chi Minh City",
+            "phone": "1900545404",
+            "facilities": [
+                "IMAX",
+                "4DX",
+                "VIP",
+                "Dolby Atmos"
+            ],
+            "location": {
+                "_latitude": 10.7769,
+                "_longitude": 106.7009
+            },
+            "isActive": true,
+            "createdAt": "2024-01-01T00:00:00Z",
+            "updatedAt": "2024-01-01T00:00:00Z"
+        },
+        {
+            "id": "cinema_002",
+            "name": "Lotte Cinema Diamond Plaza",
+            "address": "34 Le Duan, Ben Nghe, District 1, Ho Chi Minh City",
+            "city": "Ho Chi Minh City",
+            "phone": "02839251618",
+            "facilities": [
+                "4DX",
+                "VIP",
+                "Super Plex-G",
+                "Premium"
+            ],
+            "location": {
+                "_latitude": 10.7888,
+                "_longitude": 106.7011
+            },
+            "isActive": true,
+            "createdAt": "2024-01-01T00:00:00Z",
+            "updatedAt": "2024-01-01T00:00:00Z"
+        },
+        {
+            "id": "cinema_003",
+            "name": "Galaxy Cinema Nguyen Du",
+            "address": "116 Nguyen Du, Ben Thanh, District 1, Ho Chi Minh City",
+            "city": "Ho Chi Minh City",
+            "phone": "19002224",
+            "facilities": [
+                "IMAX",
+                "VIP",
+                "Screenx"
+            ],
+            "location": {
+                "_latitude": 10.7704,
+                "_longitude": 106.6944
+            },
+            "isActive": true,
+            "createdAt": "2024-01-01T00:00:00Z",
+            "updatedAt": "2024-01-01T00:00:00Z"
+        }
+    ],
+    "theaters": {
+        "cinema_001": [
+            {
+                "id": "theater_001_1",
+                "name": "Theater 1",
+                "totalSeats": 120,
+                "seatLayout": {
+                    "rows": [
+                        {
+                            "row": "A",
+                            "seats": [
+                                {
+                                    "seatNumber": "A1",
+                                    "type": "vip",
+                                    "price": 150000,
+                                    "isAvailable": true
+                                },
+                                {
+                                    "seatNumber": "A2",
+                                    "type": "vip",
+                                    "price": 150000,
+                                    "isAvailable": true
+                                },
+                                {
+                                    "seatNumber": "A3",
+                                    "type": "vip",
+                                    "price": 150000,
+                                    "isAvailable": true
+                                },
+                                {
+                                    "seatNumber": "A4",
+                                    "type": "vip",
+                                    "price": 150000,
+                                    "isAvailable": true
+                                },
+                                {
+                                    "seatNumber": "A5",
+                                    "type": "vip",
+                                    "price": 150000,
+                                    "isAvailable": true
+                                },
+                                {
+                                    "seatNumber": "A6",
+                                    "type": "vip",
+                                    "price": 150000,
+                                    "isAvailable": true
+                                },
+                                {
+                                    "seatNumber": "A7",
+                                    "type": "vip",
+                                    "price": 150000,
+                                    "isAvailable": true
+                                },
+                                {
+                                    "seatNumber": "A8",
+                                    "type": "vip",
+                                    "price": 150000,
+                                    "isAvailable": true
+                                }
+                            ]
+                        },
+                        {
+                            "row": "B",
+                            "seats": [
+                                {
+                                    "seatNumber": "B1",
+                                    "type": "regular",
+                                    "price": 100000,
+                                    "isAvailable": true
+                                },
+                                {
+                                    "seatNumber": "B2",
+                                    "type": "regular",
+                                    "price": 100000,
+                                    "isAvailable": true
+                                },
+                                {
+                                    "seatNumber": "B3",
+                                    "type": "regular",
+                                    "price": 100000,
+                                    "isAvailable": true
+                                },
+                                {
+                                    "seatNumber": "B4",
+                                    "type": "regular",
+                                    "price": 100000,
+                                    "isAvailable": true
+                                },
+                                {
+                                    "seatNumber": "B5",
+                                    "type": "regular",
+                                    "price": 100000,
+                                    "isAvailable": true
+                                },
+                                {
+                                    "seatNumber": "B6",
+                                    "type": "regular",
+                                    "price": 100000,
+                                    "isAvailable": true
+                                },
+                                {
+                                    "seatNumber": "B7",
+                                    "type": "regular",
+                                    "price": 100000,
+                                    "isAvailable": true
+                                },
+                                {
+                                    "seatNumber": "B8",
+                                    "type": "regular",
+                                    "price": 100000,
+                                    "isAvailable": true
+                                },
+                                {
+                                    "seatNumber": "B9",
+                                    "type": "regular",
+                                    "price": 100000,
+                                    "isAvailable": true
+                                },
+                                {
+                                    "seatNumber": "B10",
+                                    "type": "regular",
+                                    "price": 100000,
+                                    "isAvailable": true
+                                }
+                            ]
+                        },
+                        {
+                            "row": "C",
+                            "seats": [
+                                {
+                                    "seatNumber": "C1",
+                                    "type": "regular",
+                                    "price": 100000,
+                                    "isAvailable": true
+                                },
+                                {
+                                    "seatNumber": "C2",
+                                    "type": "regular",
+                                    "price": 100000,
+                                    "isAvailable": true
+                                },
+                                {
+                                    "seatNumber": "C3",
+                                    "type": "regular",
+                                    "price": 100000,
+                                    "isAvailable": true
+                                },
+                                {
+                                    "seatNumber": "C4",
+                                    "type": "regular",
+                                    "price": 100000,
+                                    "isAvailable": true
+                                },
+                                {
+                                    "seatNumber": "C5",
+                                    "type": "regular",
+                                    "price": 100000,
+                                    "isAvailable": true
+                                },
+                                {
+                                    "seatNumber": "C6",
+                                    "type": "regular",
+                                    "price": 100000,
+                                    "isAvailable": true
+                                },
+                                {
+                                    "seatNumber": "C7",
+                                    "type": "regular",
+                                    "price": 100000,
+                                    "isAvailable": true
+                                },
+                                {
+                                    "seatNumber": "C8",
+                                    "type": "regular",
+                                    "price": 100000,
+                                    "isAvailable": true
+                                },
+                                {
+                                    "seatNumber": "C9",
+                                    "type": "regular",
+                                    "price": 100000,
+                                    "isAvailable": true
+                                },
+                                {
+                                    "seatNumber": "C10",
+                                    "type": "regular",
+                                    "price": 100000,
+                                    "isAvailable": true
+                                }
+                            ]
+                        }
+                    ],
+                    "aisles": [
+                        2,
+                        6
+                    ]
+                },
+                "facilities": [
+                    "Dolby Atmos",
+                    "VIP"
+                ],
+                "isActive": true
+            },
+            {
+                "id": "theater_001_2",
+                "name": "Theater 2 - IMAX",
+                "totalSeats": 200,
+                "seatLayout": {
+                    "rows": [
+                        {
+                            "row": "A",
+                            "seats": [
+                                {
+                                    "seatNumber": "A1",
+                                    "type": "vip",
+                                    "price": 200000,
+                                    "isAvailable": true
+                                },
+                                {
+                                    "seatNumber": "A2",
+                                    "type": "vip",
+                                    "price": 200000,
+                                    "isAvailable": true
+                                },
+                                {
+                                    "seatNumber": "A3",
+                                    "type": "vip",
+                                    "price": 200000,
+                                    "isAvailable": true
+                                },
+                                {
+                                    "seatNumber": "A4",
+                                    "type": "vip",
+                                    "price": 200000,
+                                    "isAvailable": true
+                                },
+                                {
+                                    "seatNumber": "A5",
+                                    "type": "vip",
+                                    "price": 200000,
+                                    "isAvailable": true
+                                },
+                                {
+                                    "seatNumber": "A6",
+                                    "type": "vip",
+                                    "price": 200000,
+                                    "isAvailable": true
+                                }
+                            ]
+                        },
+                        {
+                            "row": "B",
+                            "seats": [
+                                {
+                                    "seatNumber": "B1",
+                                    "type": "regular",
+                                    "price": 150000,
+                                    "isAvailable": true
+                                },
+                                {
+                                    "seatNumber": "B2",
+                                    "type": "regular",
+                                    "price": 150000,
+                                    "isAvailable": true
+                                },
+                                {
+                                    "seatNumber": "B3",
+                                    "type": "regular",
+                                    "price": 150000,
+                                    "isAvailable": true
+                                },
+                                {
+                                    "seatNumber": "B4",
+                                    "type": "regular",
+                                    "price": 150000,
+                                    "isAvailable": true
+                                },
+                                {
+                                    "seatNumber": "B5",
+                                    "type": "regular",
+                                    "price": 150000,
+                                    "isAvailable": true
+                                },
+                                {
+                                    "seatNumber": "B6",
+                                    "type": "regular",
+                                    "price": 150000,
+                                    "isAvailable": true
+                                },
+                                {
+                                    "seatNumber": "B7",
+                                    "type": "regular",
+                                    "price": 150000,
+                                    "isAvailable": true
+                                },
+                                {
+                                    "seatNumber": "B8",
+                                    "type": "regular",
+                                    "price": 150000,
+                                    "isAvailable": true
+                                }
+                            ]
+                        }
+                    ],
+                    "aisles": [
+                        3,
+                        5
+                    ]
+                },
+                "facilities": [
+                    "IMAX",
+                    "Dolby Vision"
+                ],
+                "isActive": true
+            }
+        ],
+        "cinema_002": [
+            {
+                "id": "theater_002_1",
+                "name": "Theater 1 - 4DX",
+                "totalSeats": 80,
+                "seatLayout": {
+                    "rows": [
+                        {
+                            "row": "A",
+                            "seats": [
+                                {
+                                    "seatNumber": "A1",
+                                    "type": "4dx",
+                                    "price": 250000,
+                                    "isAvailable": true
+                                },
+                                {
+                                    "seatNumber": "A2",
+                                    "type": "4dx",
+                                    "price": 250000,
+                                    "isAvailable": true
+                                },
+                                {
+                                    "seatNumber": "A3",
+                                    "type": "4dx",
+                                    "price": 250000,
+                                    "isAvailable": true
+                                },
+                                {
+                                    "seatNumber": "A4",
+                                    "type": "4dx",
+                                    "price": 250000,
+                                    "isAvailable": true
+                                }
+                            ]
+                        },
+                        {
+                            "row": "B",
+                            "seats": [
+                                {
+                                    "seatNumber": "B1",
+                                    "type": "4dx",
+                                    "price": 250000,
+                                    "isAvailable": true
+                                },
+                                {
+                                    "seatNumber": "B2",
+                                    "type": "4dx",
+                                    "price": 250000,
+                                    "isAvailable": true
+                                },
+                                {
+                                    "seatNumber": "B3",
+                                    "type": "4dx",
+                                    "price": 250000,
+                                    "isAvailable": true
+                                },
+                                {
+                                    "seatNumber": "B4",
+                                    "type": "4dx",
+                                    "price": 250000,
+                                    "isAvailable": true
+                                },
+                                {
+                                    "seatNumber": "B5",
+                                    "type": "4dx",
+                                    "price": 250000,
+                                    "isAvailable": true
+                                },
+                                {
+                                    "seatNumber": "B6",
+                                    "type": "4dx",
+                                    "price": 250000,
+                                    "isAvailable": true
+                                }
+                            ]
+                        }
+                    ],
+                    "aisles": [
+                        2,
+                        4
+                    ]
+                },
+                "facilities": [
+                    "4DX",
+                    "Motion Seats"
+                ],
+                "isActive": true
+            }
+        ],
+        "cinema_003": [
+            {
+                "id": "theater_003_1",
+                "name": "Theater 1",
+                "totalSeats": 150,
+                "seatLayout": {
+                    "rows": [
+                        {
+                            "row": "A",
+                            "seats": [
+                                {
+                                    "seatNumber": "A1",
+                                    "type": "couple",
+                                    "price": 180000,
+                                    "isAvailable": true
+                                },
+                                {
+                                    "seatNumber": "A2",
+                                    "type": "couple",
+                                    "price": 180000,
+                                    "isAvailable": true
+                                },
+                                {
+                                    "seatNumber": "A3",
+                                    "type": "couple",
+                                    "price": 180000,
+                                    "isAvailable": true
+                                },
+                                {
+                                    "seatNumber": "A4",
+                                    "type": "couple",
+                                    "price": 180000,
+                                    "isAvailable": true
+                                }
+                            ]
+                        },
+                        {
+                            "row": "B",
+                            "seats": [
+                                {
+                                    "seatNumber": "B1",
+                                    "type": "vip",
+                                    "price": 140000,
+                                    "isAvailable": true
+                                },
+                                {
+                                    "seatNumber": "B2",
+                                    "type": "vip",
+                                    "price": 140000,
+                                    "isAvailable": true
+                                },
+                                {
+                                    "seatNumber": "B3",
+                                    "type": "vip",
+                                    "price": 140000,
+                                    "isAvailable": true
+                                },
+                                {
+                                    "seatNumber": "B4",
+                                    "type": "vip",
+                                    "price": 140000,
+                                    "isAvailable": true
+                                },
+                                {
+                                    "seatNumber": "B5",
+                                    "type": "vip",
+                                    "price": 140000,
+                                    "isAvailable": true
+                                },
+                                {
+                                    "seatNumber": "B6",
+                                    "type": "vip",
+                                    "price": 140000,
+                                    "isAvailable": true
+                                }
+                            ]
+                        }
+                    ],
+                    "aisles": [
+                        2,
+                        4
+                    ]
+                },
+                "facilities": [
+                    "VIP",
+                    "Couple Seats"
+                ],
+                "isActive": true
+            }
+        ]
+    },
+    "movies": [
+        {
+            "id": "movie_001",
+            "tmdbId": 872585,
+            "title": "Oppenheimer",
+            "overview": "The story of J. Robert Oppenheimer's role in the development of the atomic bomb during World War II.",
+            "posterPath": "/8Gxv8gSFCU0XGDykEGv7zR1n2ua.jpg",
+            "backdropPath": "/fm6KqXpk3M2HVveHwCrBSSBaO0V.jpg",
+            "releaseDate": "2023-07-21",
+            "runtime": 180,
+            "genres": [
+                "Drama",
+                "History",
+                "Biography"
+            ],
+            "voteAverage": 8.3,
+            "voteCount": 7842,
+            "trailerKey": "uYPbbksJxIg",
+            "isNowShowing": true,
+            "isComingSoon": false,
+            "createdAt": "2024-01-01T00:00:00Z",
+            "updatedAt": "2024-01-01T00:00:00Z"
+        },
+        {
+            "id": "movie_002",
+            "tmdbId": 346698,
+            "title": "Barbie",
+            "overview": "Barbie and Ken are having the time of their lives in the colorful and seemingly perfect world of Barbie Land.",
+            "posterPath": "/iuFNMS8U5cb6xfzi51Dbkovj7vM.jpg",
+            "backdropPath": "/ctMserH8g2SeOAnCw5gFjdQF8mo.jpg",
+            "releaseDate": "2023-07-21",
+            "runtime": 114,
+            "genres": [
+                "Comedy",
+                "Adventure",
+                "Fantasy"
+            ],
+            "voteAverage": 7.1,
+            "voteCount": 6543,
+            "trailerKey": "pBk4NYhWNMM",
+            "isNowShowing": true,
+            "isComingSoon": false,
+            "createdAt": "2024-01-01T00:00:00Z",
+            "updatedAt": "2024-01-01T00:00:00Z"
+        },
+        {
+            "id": "movie_003",
+            "tmdbId": 695721,
+            "title": "The Hunger Games: The Ballad of Songbirds & Snakes",
+            "overview": "Years before he would become the tyrannical President of Panem, 18-year-old Coriolanus Snow is the last hope for his fading lineage.",
+            "posterPath": "/mBaXZ95R2OxueZhvQbcEWy2DqyO.jpg",
+            "backdropPath": "/zzusTNXiKcXPwmyTTXQhbKxLg4b.jpg",
+            "releaseDate": "2023-11-17",
+            "runtime": 157,
+            "genres": [
+                "Science Fiction",
+                "Adventure",
+                "Drama"
+            ],
+            "voteAverage": 7.2,
+            "voteCount": 1847,
+            "trailerKey": "NxhEZG_gU2s",
+            "isNowShowing": false,
+            "isComingSoon": true,
+            "createdAt": "2024-01-01T00:00:00Z",
+            "updatedAt": "2024-01-01T00:00:00Z"
+        },
+        {
+            "id": "movie_004",
+            "tmdbId": 507089,
+            "title": "Five Nights at Freddy's",
+            "overview": "Recently fired and desperate for work, a troubled young man named Mike agrees to take a position as a night security guard at an abandoned theme restaurant.",
+            "posterPath": "/A4j8S6moJS2zNtRR8oWF08gRnL5.jpg",
+            "backdropPath": "/yYrvN5WFeGYjJnRzhY0QXuo4Isw.jpg",
+            "releaseDate": "2023-10-27",
+            "runtime": 109,
+            "genres": [
+                "Horror",
+                "Mystery",
+                "Thriller"
+            ],
+            "voteAverage": 7.5,
+            "voteCount": 2941,
+            "trailerKey": "0VH9WCFV6XQ",
+            "isNowShowing": true,
+            "isComingSoon": false,
+            "createdAt": "2024-01-01T00:00:00Z",
+            "updatedAt": "2024-01-01T00:00:00Z"
+        }
+    ],
+    "showtimes": [
+        {
+            "id": "showtime_001",
+            "movieId": "movie_001",
+            "cinemaId": "cinema_001",
+            "theaterId": "theater_001_1",
+            "showDate": "2024-12-25",
+            "showTime": "14:30",
+            "startDateTime": "2024-12-25T14:30:00Z",
+            "endDateTime": "2024-12-25T17:30:00Z",
+            "basePrice": 100000,
+            "availableSeats": 28,
+            "bookedSeats": [],
+            "status": "active",
+            "createdAt": "2024-12-20T00:00:00Z",
+            "updatedAt": "2024-12-20T00:00:00Z"
+        },
+        {
+            "id": "showtime_002",
+            "movieId": "movie_001",
+            "cinemaId": "cinema_001",
+            "theaterId": "theater_001_2",
+            "showDate": "2024-12-25",
+            "showTime": "19:00",
+            "startDateTime": "2024-12-25T19:00:00Z",
+            "endDateTime": "2024-12-25T22:00:00Z",
+            "basePrice": 150000,
+            "availableSeats": 14,
+            "bookedSeats": [],
+            "status": "active",
+            "createdAt": "2024-12-20T00:00:00Z",
+            "updatedAt": "2024-12-20T00:00:00Z"
+        },
+        {
+            "id": "showtime_003",
+            "movieId": "movie_002",
+            "cinemaId": "cinema_002",
+            "theaterId": "theater_002_1",
+            "showDate": "2024-12-25",
+            "showTime": "16:00",
+            "startDateTime": "2024-12-25T16:00:00Z",
+            "endDateTime": "2024-12-25T18:00:00Z",
+            "basePrice": 250000,
+            "availableSeats": 10,
+            "bookedSeats": [],
+            "status": "active",
+            "createdAt": "2024-12-20T00:00:00Z",
+            "updatedAt": "2024-12-20T00:00:00Z"
+        },
+        {
+            "id": "showtime_004",
+            "movieId": "movie_002",
+            "cinemaId": "cinema_003",
+            "theaterId": "theater_003_1",
+            "showDate": "2024-12-26",
+            "showTime": "20:30",
+            "startDateTime": "2024-12-26T20:30:00Z",
+            "endDateTime": "2024-12-26T22:30:00Z",
+            "basePrice": 140000,
+            "availableSeats": 10,
+            "bookedSeats": [],
+            "status": "active",
+            "createdAt": "2024-12-20T00:00:00Z",
+            "updatedAt": "2024-12-20T00:00:00Z"
+        },
+        {
+            "id": "showtime_005",
+            "movieId": "movie_004",
+            "cinemaId": "cinema_001",
+            "theaterId": "theater_001_1",
+            "showDate": "2024-12-26",
+            "showTime": "21:45",
+            "startDateTime": "2024-12-26T21:45:00Z",
+            "endDateTime": "2024-12-26T23:45:00Z",
+            "basePrice": 100000,
+            "availableSeats": 28,
+            "bookedSeats": [],
+            "status": "active",
+            "createdAt": "2024-12-20T00:00:00Z",
+            "updatedAt": "2024-12-20T00:00:00Z"
+        }
+    ],
+    "counters": [
+        {
+            "id": "daily_booking",
+            "date": "2024-12-25",
+            "count": 0,
+            "lastUpdated": "2024-12-25T00:00:00Z"
+        },
+        {
+            "id": "daily_ticket",
+            "date": "2024-12-25",
+            "count": 0,
+            "lastUpdated": "2024-12-25T00:00:00Z"
+        },
+        {
+            "id": "daily_payment",
+            "date": "2024-12-25",
+            "count": 0,
+            "lastUpdated": "2024-12-25T00:00:00Z"
+        }
+    ]
+}
