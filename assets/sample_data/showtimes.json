@@ -1,0 +1,17 @@
+[
+    {
+        "movieId": "MOVIE_ID_MATRIX",
+        "cinemaId": "CINEMA_ID_TIKNOW",
+        "theaterId": "THEATER_ID_1",
+        "showDate": "2025-08-15",
+        "showTime": "19:30",
+        "startDateTime": "2025-08-15T19:30:00Z",
+        "endDateTime": "2025-08-15T21:46:00Z",
+        "basePrice": 75000,
+        "availableSeats": 50,
+        "bookedSeats": [],
+        "status": "active",
+        "createdAt": "2025-08-12T00:00:00Z",
+        "updatedAt": "2025-08-12T00:00:00Z"
+    }
+]

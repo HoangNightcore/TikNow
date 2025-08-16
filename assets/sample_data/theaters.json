@@ -1,0 +1,53 @@
+[
+    {
+        "name": "Theater 1",
+        "totalSeats": 50,
+        "seatLayout": {
+            "rows": [
+                {
+                    "row": "A",
+                    "seats": [
+                        {
+                            "seatNumber": "A1",
+                            "type": "regular",
+                            "price": 75000,
+                            "isAvailable": true
+                        },
+                        {
+                            "seatNumber": "A2",
+                            "type": "regular",
+                            "price": 75000,
+                            "isAvailable": true
+                        }
+                    ]
+                },
+                {
+                    "row": "B",
+                    "seats": [
+                        {
+                            "seatNumber": "B1",
+                            "type": "vip",
+                            "price": 100000,
+                            "isAvailable": true
+                        },
+                        {
+                            "seatNumber": "B2",
+                            "type": "vip",
+                            "price": 100000,
+                            "isAvailable": true
+                        }
+                    ]
+                }
+            ],
+            "aisles": [
+                "after A",
+                "after B"
+            ]
+        },
+        "facilities": [
+            "Dolby Sound",
+            "Air Conditioning"
+        ],
+        "isActive": true
+    }
+]

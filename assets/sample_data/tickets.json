@@ -1,0 +1,40 @@
+[
+    {
+        "userId": "USER_ID_1",
+        "bookingId": "BOOKING_ID_1",
+        "paymentId": "PAYMENT_ID_1",
+        "movieInfo": {
+            "title": "The Matrix",
+            "posterPath": "/matrix.jpg",
+            "duration": 136
+        },
+        "cinemaInfo": {
+            "name": "Tiknow Cinema Center",
+            "address": "123 Nguyễn Huệ, Quận 1"
+        },
+        "showInfo": {
+            "date": "2025-08-15",
+            "time": "19:30",
+            "theaterName": "Theater 1"
+        },
+        "seatInfo": [
+            {
+                "seatNumber": "A1",
+                "type": "regular",
+                "price": 75000
+            },
+            {
+                "seatNumber": "A2",
+                "type": "regular",
+                "price": 75000
+            }
+        ],
+        "ticketCode": "TK20250812A1A2",
+        "qrCodeData": "https://example.com/qrcode/TK20250812A1A2",
+        "totalAmount": 150000,
+        "ticketStatus": "active",
+        "issuedAt": "2025-08-12T00:00:00Z",
+        "validUntil": "2025-08-15T21:46:00Z",
+        "usedAt": null
+    }
+]

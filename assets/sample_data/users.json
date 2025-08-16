@@ -1,0 +1,18 @@
+[
+    {
+        "email": "john.doe@example.com",
+        "displayName": "John Doe",
+        "photoURL": "https://example.com/avatars/john.jpg",
+        "phoneNumber": "+84901234567",
+        "createdAt": "2025-08-12T00:00:00Z",
+        "updatedAt": "2025-08-12T00:00:00Z"
+    },
+    {
+        "email": "jane.smith@example.com",
+        "displayName": "Jane Smith",
+        "photoURL": "https://example.com/avatars/jane.jpg",
+        "phoneNumber": "+84909876543",
+        "createdAt": "2025-08-12T00:00:00Z",
+        "updatedAt": "2025-08-12T00:00:00Z"
+    }
+]

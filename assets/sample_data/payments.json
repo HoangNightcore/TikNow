@@ -1,0 +1,16 @@
+[
+    {
+        "bookingId": "BOOKING_ID_1",
+        "userId": "USER_ID_1",
+        "amount": 150000,
+        "paymentMethod": "momo",
+        "paymentStatus": "pending",
+        "transactionId": "",
+        "paymentDetails": {
+            "walletType": "Momo"
+        },
+        "paidAt": null,
+        "createdAt": "2025-08-12T00:00:00Z",
+        "updatedAt": "2025-08-12T00:00:00Z"
+    }
+]

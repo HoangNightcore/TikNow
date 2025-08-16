@@ -1,0 +1,42 @@
+[
+    {
+        "tmdbId": 603,
+        "title": "The Matrix",
+        "overview": "A hacker discovers the reality is a simulation.",
+        "posterPath": "/matrix.jpg",
+        "backdropPath": "/matrix_bg.jpg",
+        "releaseDate": "1999-03-31",
+        "runtime": 136,
+        "genres": [
+            "Action",
+            "Sci-Fi"
+        ],
+        "voteAverage": 8.7,
+        "voteCount": 21000,
+        "trailerKey": "m8e-FF8MsqU",
+        "isNowShowing": true,
+        "isComingSoon": false,
+        "createdAt": "2025-08-12T00:00:00Z",
+        "updatedAt": "2025-08-12T00:00:00Z"
+    },
+    {
+        "tmdbId": 550,
+        "title": "Fight Club",
+        "overview": "An insomniac office worker and a soap maker form an underground club.",
+        "posterPath": "/fightclub.jpg",
+        "backdropPath": "/fightclub_bg.jpg",
+        "releaseDate": "1999-10-15",
+        "runtime": 139,
+        "genres": [
+            "Drama",
+            "Thriller"
+        ],
+        "voteAverage": 8.4,
+        "voteCount": 25000,
+        "trailerKey": "SUXWAEX2jlg",
+        "isNowShowing": true,
+        "isComingSoon": false,
+        "createdAt": "2025-08-12T00:00:00Z",
+        "updatedAt": "2025-08-12T00:00:00Z"
+    }
+]
