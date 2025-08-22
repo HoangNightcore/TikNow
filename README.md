@@ -171,25 +171,54 @@ lib/
 **Feature-first**
 ```bash
 lib/
-├─ core/                        # Hằng số, theme, utils, widgets chung
-│   ├── constants/              # Màu, font, padding, api key...
-│   ├── theme/                  # Dark/Light theme
-│   ├── utils/                  # Helpers, formatters, validators
-│   ├── widgets/                # Common widgets (button, input, loader, error, empty)
-├─ features/                    # Chia theo feature
-│   ├─ auth/                    # Đăng nhập, đăng ký
-│   │   ├─ bloc/                # Quản lý state, sự kiện, logic UI
-│   │   ├─ data/                # Model, datasource (api/firestore), repository implementation.
-│   │   ├─ domain/              # Entity, repository abstract, usecase
-│   │   └─ presentation/        # UI widgets, pages, screen
-│   ├─ booking/                 # Booking (chọn rạp, suất chiếu, ghế, thanh toán)
-│   ├─ movie/                   # Movie list, movie details, search, trailer
-│   ├─ payment/
-│   ├─ profile/                 # Hồ sơ người dùng
-│   └─ tickets/                 # Vé của tôi
-├─ app.dart
-└─ main.dart
+├─ core/                        # Thành phần tái sử dụng toàn app
+│ ├── constants/                # Hằng số (màu sắc, font, spacing, API key...)
+│ ├── theme/                    # Quản lý Light/Dark theme
+│ ├── utils/                    # Hàm helper (formatter, validator, extension)
+│ ├── widgets/                  # Widget chung (button, input, loader, error, empty state)
+│
+├─ features/                    # Chia theo module (feature)
+│ ├─ auth/                      # Module xác thực (login/register)
+│ │ ├─ bloc/                    # (UI Logic Layer)
+│ │ │ ├── auth_bloc.dart        # Quản lý toàn bộ state & logic Auth
+│ │ │ ├── auth_event.dart       # Định nghĩa các sự kiện (LoginRequested, LogoutRequested...)
+│ │ │ └── auth_state.dart       # Định nghĩa trạng thái (Unauthenticated, Authenticated, Loading...)
+│ │ │
+│ │ ├─ data/                    # (Data Layer - implement repository)
+│ │ │ ├── models/               # Định nghĩa model data (UserModel...)
+│ │ │ ├── datasources/          # Nguồn dữ liệu (Firebase, API, local storage)
+│ │ │ └── auth_repository_impl.dart     # Triển khai AuthRepository dùng datasource
+│ │ │
+│ │ ├─ domain/                  # (Domain Layer - business logic thuần)
+│ │ │ ├── entities/             # Định nghĩa entity (AppUser...) - dữ liệu thuần, không phụ thuộc lib ngoài
+│ │ │ ├── repositories/ `       # Abstract AuthRepository - chỉ định nghĩa, không triển khai
+│ │ │ └── usecases/             # Business logic cụ thể (LoginUseCase, RegisterUseCase...)
+│ │ │
+│ │ └─ presentation/            # (UI Layer) - màn hình, widget
+│ │
+│ ├─ booking/                   # Đặt vé (chọn rạp, suất chiếu, ghế, thanh toán)
+│ ├─ movie/                     # Danh sách phim, chi tiết, trailer, tìm kiếm
+│ ├─ payment/                   # Thanh toán
+│ ├─ profile/                   # Hồ sơ người dùng
+│ └─ tickets/                   # Vé của tôi
+│
+├─ app.dart                     # Cấu hình root app (theme, route, provider...)
+└─ main.dart                    # Entry point của ứng dụng
 ```
+---
+
+## 🔄 Data Flow trong Clean Architecture
+UI (Presentation) 
+    ↓ events
+BLoC (Business Logic)
+    ↓ calls
+Repository Interface (Domain)
+    ↓ implements  
+Repository Implementation (Data)
+    ↓ calls
+DataSource (Data)
+    ↓ API/Database
+External Services
 
 ---
 
